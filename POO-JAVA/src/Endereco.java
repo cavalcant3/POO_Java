@@ -1,7 +1,13 @@
 public class Endereco {
 
-//    AQUI ESPECIFICAMOS O TIPO DE DADO QUE VAI SER RECEBIDO NA LISTA
-    public enum TipoEndereco {RESIDENCIAL, ENTREGA, TRABALHO}
+    public void add(Endereco endereco) {
+    }
+
+    //    AQUI ESPECIFICAMOS O TIPO DE DADO QUE VAI SER RECEBIDO NA LISTA
+    public enum TipoEndereco
+    {RESIDENCIAL,
+    ENTREGA,
+    TRABALHO}
 
     public String endereco1;
     public String numero1;
